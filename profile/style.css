@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Fondo negro */
+  color: #FFFFFF; /* Texto blanco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #1F1F1F; /* Fondo gris oscuro */
+  border: 2px solid #5A189A; /* Borde morado oscuro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 20px;
+  margin: 10px auto; /* Centra el contenedor */
+  max-width: 450px; /* Ajusta el ancho máximo */
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Profile Image Styling */
+.card img {
+  border-radius: 50%;
+  border: 3px solid #5A189A; /* Borde morado oscuro */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #E0E0E0; /* Texto gris claro */
+  margin-bottom: 10px;
+}
+
+/* Profile Bio Styling */
+p {
+  font-size: 16px;
+  color: #B0B0B0; /* Texto gris medio */
+  margin-bottom: 20px;
+}
+
+/* Social Links Styling */
+a {
+  color: #5A189A; /* Texto morado oscuro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #D4A5E6; /* Morado claro */
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+li a {
+  color: #5A189A; /* Texto morado oscuro */
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #D4A5E6; /* Morado claro */
+}
